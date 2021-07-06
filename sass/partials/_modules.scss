@@ -1,0 +1,127 @@
+.border{
+    &-light-blue{
+        border-color: $color__light-blue !important;
+    }
+}
+
+.coming-soon{
+    &-s1{
+        background-position: center top;
+    }
+}
+
+.minh{
+    &-25vh{
+        min-height: 25vh;
+    }
+    &-50vh{
+        min-height: 50vh;
+    }
+    &-75vh{
+        min-height: 75vh;
+    }
+    &-100vh{
+        min-height: 100vh;
+    }
+}
+
+.text{
+    &-blue{
+        color: $color__blue;
+    }
+    &-light-blue{
+        color: $color__light-blue;
+    }
+}
+
+/*landscape*/
+@media all and (orientation: landscape){
+    .coming-soon{
+        &-s1{
+            padding-top: 5%;
+        }
+    }
+    .logo-cs{
+        width: 15%;
+    }
+    .text-cs{
+        font-size: 1.5em;
+    }
+}
+
+@media all and (orientation: landscape) and (max-width:667px){
+    .coming-soon{
+        &-s1{
+            @include set-bg(nth($img__coming-soon--h,1));
+        }
+    }
+}
+
+@media all and (orientation: landscape) and (min-width:668px){
+    .coming-soon{
+        &-s1{
+            @include set-bg(nth($img__coming-soon--h,2));
+        }
+    }
+}
+
+
+@media all and (orientation: landscape) and (min-width:992px){
+    .coming-soon{
+        &-s1{
+            @include set-bg(nth($img__coming-soon--h,2));
+            padding-top: 7.5%;
+        }
+        .logo-cs{
+            width: 20%;
+        }
+        .text-cs{
+            font-size: 1.8em;
+        }
+    }
+}
+
+@media all and (orientation: landscape) and (min-width:1367px){
+    .coming-soon{
+        &-s1{
+            @include set-bg(nth($img__coming-soon--h,3));
+        }
+    }
+}
+
+/*portait*/
+@media all and (orientation: portrait){
+    .coming-soon{
+        &-s1{
+            padding-top: 35%;
+        }
+        .logo-cs{
+            width: 70%;
+        }
+    }
+}
+
+
+@media all and (orientation: portrait) and (max-height:667px){
+    .coming-soon{
+        &-s1{
+            @include set-bg(nth($img__coming-soon--v,1));
+        }
+    }
+}
+
+@media all and (orientation: portrait) and (min-height:668px){
+    .coming-soon{
+        &-s1{
+            @include set-bg(nth($img__coming-soon--v,2));
+        }
+    }
+}
+
+@media all and (orientation: portrait) and (min-height:1367px){
+    .coming-soon{
+        &-s1{
+            @include set-bg(nth($img__coming-soon--v,3));
+        }
+    }
+}
