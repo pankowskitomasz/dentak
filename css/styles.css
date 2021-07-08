@@ -1,122 +1,354 @@
 /* line 2, ../sass/partials/_modules.scss */
-.border-light-blue {
-  border-color: #00b6f5 !important;
+.bg-dark-blue {
+  background-color: #004364;
 }
 
 /* line 8, ../sass/partials/_modules.scss */
+.border-light-blue {
+  border-color: #00b6f5 !important;
+  color: #fff;
+}
+
+/* line 15, ../sass/partials/_modules.scss */
+.btn-green {
+  background-image: linear-gradient(180deg, #b8df6e, #066524);
+  border: none !important;
+  color: #fff;
+  text-shadow: 1px 1px 3px #066524;
+}
+
+/* line 24, ../sass/partials/_modules.scss */
 .coming-soon-s1 {
   background-position: center top;
 }
 
-/* line 14, ../sass/partials/_modules.scss */
+/* line 30, ../sass/partials/_modules.scss */
 .minh-25vh {
   min-height: 25vh;
 }
-/* line 17, ../sass/partials/_modules.scss */
+/* line 33, ../sass/partials/_modules.scss */
 .minh-50vh {
   min-height: 50vh;
 }
-/* line 20, ../sass/partials/_modules.scss */
+/* line 36, ../sass/partials/_modules.scss */
 .minh-75vh {
   min-height: 75vh;
 }
-/* line 23, ../sass/partials/_modules.scss */
+/* line 39, ../sass/partials/_modules.scss */
 .minh-100vh {
   min-height: 100vh;
 }
 
-/* line 29, ../sass/partials/_modules.scss */
+/* line 45, ../sass/partials/_modules.scss */
+.navbar-brand {
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px 0px;
+  margin: 0px 10px;
+}
+
+/* line 54, ../sass/partials/_modules.scss */
+.opacity-7 {
+  opacity: 0.7;
+}
+/* line 57, ../sass/partials/_modules.scss */
+.opacity-8 {
+  opacity: 0.8;
+}
+
+/* line 63, ../sass/partials/_modules.scss */
 .text-blue {
   color: #0051a1;
 }
-/* line 32, ../sass/partials/_modules.scss */
+/* line 66, ../sass/partials/_modules.scss */
 .text-light-blue {
   color: #00b6f5;
 }
+/* line 69, ../sass/partials/_modules.scss */
+.text-light-green {
+  color: #b8df6e;
+}
+/* line 72, ../sass/partials/_modules.scss */
+.text-shadow {
+  text-shadow: 1px 1px 3px #004364;
+}
 
+@media all and (max-width: 767px) {
+  /* line 78, ../sass/partials/_modules.scss */
+  .header {
+    background-color: #004364;
+    opacity: 0.8;
+  }
+}
 /*landscape*/
 @media all and (orientation: landscape) {
-  /* line 40, ../sass/partials/_modules.scss */
+  /* line 87, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     padding-top: 5%;
   }
 
-  /* line 44, ../sass/partials/_modules.scss */
+  /* line 91, ../sass/partials/_modules.scss */
   .logo-cs {
     width: 15%;
   }
 
-  /* line 47, ../sass/partials/_modules.scss */
+  /* line 94, ../sass/partials/_modules.scss */
   .text-cs {
     font-size: 1.5em;
   }
 }
 @media all and (orientation: landscape) and (max-width: 667px) {
-  /* line 54, ../sass/partials/_modules.scss */
+  /* line 101, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     background-image: url("../img/bg/coming_soon_sm_h.jpg");
     background-size: cover;
   }
+
+  /* line 106, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-image: url("../img/bg_index/index_s1_sm_h.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 112, ../sass/partials/_modules.scss */
+  .about-s1 {
+    background-image: url("../img/bg_about/about_s1_sm_h.jpg");
+    background-size: cover;
+    background-position: top left;
+  }
+  /* line 116, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-image: url("../img/bg_about/about_s2_sm_h.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 122, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-image: url("../img/bg_contact/contact_s1_sm_h.jpg");
+    background-size: cover;
+  }
+
+  /* line 127, ../sass/partials/_modules.scss */
+  .text-landscape-start {
+    text-align: left !important;
+  }
 }
 @media all and (orientation: landscape) and (min-width: 668px) {
-  /* line 62, ../sass/partials/_modules.scss */
+  /* line 135, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     background-image: url("../img/bg/coming_soon_lg_h.jpg");
     background-size: cover;
   }
+
+  /* line 140, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-image: url("../img/bg_index/index_s1_lg_h.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 146, ../sass/partials/_modules.scss */
+  .about-s1 {
+    background-image: url("../img/bg_about/about_s1_lg_h.jpg");
+    background-size: cover;
+    background-position: left center;
+  }
+  /* line 150, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-image: url("../img/bg_about/about_s2_lg_h.jpg");
+    background-size: cover;
+    background-position: top center;
+  }
+
+  /* line 156, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-image: url("../img/bg_contact/contact_s1_lg_h.jpg");
+    background-size: cover;
+  }
 }
 @media all and (orientation: landscape) and (min-width: 992px) {
-  /* line 71, ../sass/partials/_modules.scss */
+  /* line 164, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     background-image: url("../img/bg/coming_soon_lg_h.jpg");
     background-size: cover;
     padding-top: 7.5%;
   }
-  /* line 75, ../sass/partials/_modules.scss */
+  /* line 168, ../sass/partials/_modules.scss */
   .coming-soon .logo-cs {
     width: 20%;
   }
-  /* line 78, ../sass/partials/_modules.scss */
+  /* line 171, ../sass/partials/_modules.scss */
   .coming-soon .text-cs {
     font-size: 1.8em;
   }
 }
 @media all and (orientation: landscape) and (min-width: 1367px) {
-  /* line 86, ../sass/partials/_modules.scss */
+  /* line 179, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     background-image: url("../img/bg/coming_soon_xxl_h.jpg");
+    background-size: cover;
+  }
+
+  /* line 184, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-image: url("../img/bg_index/index_s1_xl_h.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 190, ../sass/partials/_modules.scss */
+  .about-s1 {
+    background-image: url("../img/bg_about/about_s1_xl_h.jpg");
+    background-size: cover;
+    background-position: left center;
+  }
+  /* line 194, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-image: url("../img/bg_about/about_s2_xl_h.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 200, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-image: url("../img/bg_contact/contact_s1_xl_h.jpg");
     background-size: cover;
   }
 }
 /*portait*/
 @media all and (orientation: portrait) {
-  /* line 95, ../sass/partials/_modules.scss */
+  /* line 209, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     padding-top: 35%;
   }
-  /* line 98, ../sass/partials/_modules.scss */
+  /* line 212, ../sass/partials/_modules.scss */
   .coming-soon .logo-cs {
     width: 70%;
   }
 }
 @media all and (orientation: portrait) and (max-height: 667px) {
-  /* line 107, ../sass/partials/_modules.scss */
+  /* line 220, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     background-image: url("../img/bg/coming_soon_sm_v.jpg");
     background-size: cover;
   }
+
+  /* line 225, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-image: url("../img/bg_index/index_s1_sm_v.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 231, ../sass/partials/_modules.scss */
+  .about-s1 {
+    background-image: url("../img/bg_about/about_s1_sm_h.jpg");
+    background-size: cover;
+    background-position: top left;
+  }
+  /* line 235, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-image: url("../img/bg_about/about_s2_sm_h.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 241, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-image: url("../img/bg_contact/contact_s1_sm_v.jpg");
+    background-size: cover;
+  }
 }
 @media all and (orientation: portrait) and (min-height: 668px) {
-  /* line 115, ../sass/partials/_modules.scss */
+  /* line 249, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     background-image: url("../img/bg/coming_soon_lg_v.jpg");
     background-size: cover;
   }
+
+  /* line 254, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-image: url("../img/bg_index/index_s1_lg_v.jpg");
+    background-size: cover;
+    background-position: bottom right;
+  }
+
+  /* line 260, ../sass/partials/_modules.scss */
+  .about-s1 {
+    background-image: url("../img/bg_about/about_s1_lg_v.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+  /* line 264, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-image: url("../img/bg_about/about_s2_lg_v.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 270, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-image: url("../img/bg_contact/contact_s1_lg_v.jpg");
+    background-size: cover;
+  }
 }
 @media all and (orientation: portrait) and (min-height: 1367px) {
-  /* line 123, ../sass/partials/_modules.scss */
+  /* line 278, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     background-image: url("../img/bg/coming_soon_xxl_v.jpg");
     background-size: cover;
+  }
+
+  /* line 283, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-image: url("../img/bg_index/index_s1_xl_v.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 289, ../sass/partials/_modules.scss */
+  .about-s1 {
+    background-image: url("../img/bg_about/about_s1_xl_v.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+  /* line 293, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-image: url("../img/bg_about/about_s2_xl_v.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 299, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-image: url("../img/bg_contact/contact_s1_xl_v.jpg");
+    background-size: cover;
+  }
+}
+/*iphone-X correction*/
+@media all and (orientation: landscape) and (width: 812px) {
+  /* line 307, ../sass/partials/_modules.scss */
+  .ip-index-s1 {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    text-align: left !important;
+    width: 50% !important;
+  }
+
+  /* line 313, ../sass/partials/_modules.scss */
+  .ip-contact-s1 {
+    text-align: center !important;
+    width: 100% !important;
+  }
+}
+/*ipad-pro correction*/
+@media all and (orientation: portrait) and (height: 1366px) {
+  /* line 321, ../sass/partials/_modules.scss */
+  .ip-index-s1 {
+    margin-top: 20% !important;
+    text-align: center !important;
+    width: 100% !important;
   }
 }

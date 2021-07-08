@@ -1,5 +1,10 @@
 $color__blue: #0051a1;
+$color__dark-blue: #004364;
+$color__light-green: #b8df6e;
+$color__dark-green: #066524;
+$color__white: #fff;
 $color__light-blue: #00b6f5;
+
 $img__coming-soon--h:
     "../img/bg/coming_soon_sm_h.jpg",
     "../img/bg/coming_soon_lg_h.jpg",
@@ -8,3 +13,43 @@ $img__coming-soon--v:
     "../img/bg/coming_soon_sm_v.jpg",
     "../img/bg/coming_soon_lg_v.jpg",
     "../img/bg/coming_soon_xxl_v.jpg";
+
+$img__index-s1--h:
+    "../img/bg_index/index_s1_sm_h.jpg",
+    "../img/bg_index/index_s1_lg_h.jpg",
+    "../img/bg_index/index_s1_xl_h.jpg";
+$img__index-s1--v: 
+    "../img/bg_index/index_s1_sm_v.jpg",
+    "../img/bg_index/index_s1_lg_v.jpg",
+    "../img/bg_index/index_s1_xl_v.jpg";
+
+$img__about-s1--h:
+    "../img/bg_about/about_s1_sm_h.jpg",
+    "../img/bg_about/about_s1_lg_h.jpg",
+    "../img/bg_about/about_s1_xl_h.jpg";
+$img__about-s1--v: 
+    "../img/bg_about/about_s1_sm_v.jpg",
+    "../img/bg_about/about_s1_lg_v.jpg",
+    "../img/bg_about/about_s1_xl_v.jpg";
+
+$img__about-s2--h:
+    "../img/bg_about/about_s2_sm_h.jpg",
+    "../img/bg_about/about_s2_lg_h.jpg",
+    "../img/bg_about/about_s2_xl_h.jpg";
+$img__about-s2--v: 
+    "../img/bg_about/about_s2_sm_v.jpg",
+    "../img/bg_about/about_s2_lg_v.jpg",
+    "../img/bg_about/about_s2_xl_v.jpg";
+
+$img__contact-s1--h:
+    "../img/bg_contact/contact_s1_sm_h.jpg",
+    "../img/bg_contact/contact_s1_lg_h.jpg",
+    "../img/bg_contact/contact_s1_xl_h.jpg";
+$img__contact-s1--v: 
+    "../img/bg_contact/contact_s1_sm_v.jpg",
+    "../img/bg_contact/contact_s1_lg_v.jpg",
+    "../img/bg_contact/contact_s1_xl_v.jpg";
+
+$text__shadow: 1px 1px 3px $color__dark-blue;
+$text__shadow-green: 1px 1px 3px $color__dark-green;
+
