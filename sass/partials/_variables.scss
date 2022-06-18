@@ -4,52 +4,36 @@ $color__light-green: #b8df6e;
 $color__dark-green: #066524;
 $color__white: #fff;
 $color__light-blue: #00b6f5;
-
-$img__coming-soon--h:
-    "../img/bg/coming_soon_sm_h.jpg",
-    "../img/bg/coming_soon_lg_h.jpg",
-    "../img/bg/coming_soon_xxl_h.jpg";
-$img__coming-soon--v: 
-    "../img/bg/coming_soon_sm_v.jpg",
-    "../img/bg/coming_soon_lg_v.jpg",
-    "../img/bg/coming_soon_xxl_v.jpg";
-
-$img__index-s1--h:
-    "../img/bg_index/index_s1_sm_h.jpg",
-    "../img/bg_index/index_s1_lg_h.jpg",
-    "../img/bg_index/index_s1_xl_h.jpg";
-$img__index-s1--v: 
-    "../img/bg_index/index_s1_sm_v.jpg",
-    "../img/bg_index/index_s1_lg_v.jpg",
-    "../img/bg_index/index_s1_xl_v.jpg";
-
-$img__about-s1--h:
-    "../img/bg_about/about_s1_sm_h.jpg",
-    "../img/bg_about/about_s1_lg_h.jpg",
-    "../img/bg_about/about_s1_xl_h.jpg";
-$img__about-s1--v: 
-    "../img/bg_about/about_s1_sm_v.jpg",
-    "../img/bg_about/about_s1_lg_v.jpg",
-    "../img/bg_about/about_s1_xl_v.jpg";
-
-$img__about-s2--h:
-    "../img/bg_about/about_s2_sm_h.jpg",
-    "../img/bg_about/about_s2_lg_h.jpg",
-    "../img/bg_about/about_s2_xl_h.jpg";
-$img__about-s2--v: 
-    "../img/bg_about/about_s2_sm_v.jpg",
-    "../img/bg_about/about_s2_lg_v.jpg",
-    "../img/bg_about/about_s2_xl_v.jpg";
-
-$img__contact-s1--h:
-    "../img/bg_contact/contact_s1_sm_h.jpg",
-    "../img/bg_contact/contact_s1_lg_h.jpg",
-    "../img/bg_contact/contact_s1_xl_h.jpg";
-$img__contact-s1--v: 
-    "../img/bg_contact/contact_s1_sm_v.jpg",
-    "../img/bg_contact/contact_s1_lg_v.jpg",
-    "../img/bg_contact/contact_s1_xl_v.jpg";
-
+$bg__about: 
+    "../img/about/about-s1.jpg",
+    "../img/about/about-s2.jpg",
+    "../img/about/about-s3.jpg",
+    "../img/about/about-s4.jpg",
+    "../img/about/about-s5.jpg";
+$bg__contact: 
+    "../img/contact/contact-s1.jpg",
+    "../img/contact/contact-s2.jpg",
+    "../img/contact/contact-s3.jpg";
+$bg__index: "../img/index/index-s1.jpg";
+$bg__services: 
+    "../img/services/services-s1.jpg",
+    "",
+    "../img/services/services-s3.jpg",
+    "../img/services/services-s4.jpg",
+    "../img/services/services-s5.jpg";
+$bg__team: "../img/team/team-s1.jpg";
+$bg__array: 
+    $bg__about,
+    $bg__contact,
+    $bg__index,
+    $bg__services,
+    $bg__team;
+$bg__classes:
+    "about",
+    "contact",
+    "index",
+    "services",
+    "team";
 $text__shadow: 1px 1px 3px $color__dark-blue;
 $text__shadow-green: 1px 1px 3px $color__dark-green;
 

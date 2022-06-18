@@ -1,15 +1,156 @@
-/* line 2, ../sass/partials/_modules.scss */
+/* line 35, ../sass/partials/_mixins.scss */
+.about-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.about-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.about-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.about-s4 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s4.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.about-s5 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s5.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.contact-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.contact-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.contact-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.index-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.services-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/services/services-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.services-s2 {
+  background-attachment: scroll;
+  background-image: url();
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.services-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/services/services-s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.services-s4 {
+  background-attachment: scroll;
+  background-image: url(../img/services/services-s4.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.services-s5 {
+  background-attachment: scroll;
+  background-image: url(../img/services/services-s5.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 35, ../sass/partials/_mixins.scss */
+.team-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/team/team-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 4, ../sass/partials/_modules.scss */
+.about-s2, .about-s5 {
+  background-color: #aaa;
+  background-blend-mode: multiply;
+}
+
+/* line 10, ../sass/partials/_modules.scss */
 .bg-dark-blue {
   background-color: #004364;
 }
 
-/* line 8, ../sass/partials/_modules.scss */
+/* line 16, ../sass/partials/_modules.scss */
 .border-light-blue {
   border-color: #00b6f5 !important;
   color: #fff;
 }
 
-/* line 15, ../sass/partials/_modules.scss */
+/* line 23, ../sass/partials/_modules.scss */
 .btn-green {
   background-image: linear-gradient(180deg, #b8df6e, #066524);
   border: none !important;
@@ -17,29 +158,35 @@
   text-shadow: 1px 1px 3px #066524;
 }
 
-/* line 24, ../sass/partials/_modules.scss */
+/* line 32, ../sass/partials/_modules.scss */
 .coming-soon-s1 {
   background-position: center top;
 }
 
-/* line 30, ../sass/partials/_modules.scss */
+/* line 37, ../sass/partials/_modules.scss */
+.contact-s3 {
+  background-color: #999 !important;
+  background-blend-mode: multiply;
+}
+
+/* line 44, ../sass/partials/_modules.scss */
 .minh-25vh {
   min-height: 25vh;
 }
-/* line 33, ../sass/partials/_modules.scss */
+/* line 47, ../sass/partials/_modules.scss */
 .minh-50vh {
   min-height: 50vh;
 }
-/* line 36, ../sass/partials/_modules.scss */
+/* line 50, ../sass/partials/_modules.scss */
 .minh-75vh {
   min-height: 75vh;
 }
-/* line 39, ../sass/partials/_modules.scss */
+/* line 53, ../sass/partials/_modules.scss */
 .minh-100vh {
   min-height: 100vh;
 }
 
-/* line 45, ../sass/partials/_modules.scss */
+/* line 59, ../sass/partials/_modules.scss */
 .navbar-brand {
   background-color: white;
   border-radius: 50%;
@@ -47,308 +194,83 @@
   margin: 0px 10px;
 }
 
-/* line 54, ../sass/partials/_modules.scss */
+/* line 68, ../sass/partials/_modules.scss */
 .opacity-7 {
   opacity: 0.7;
 }
-/* line 57, ../sass/partials/_modules.scss */
+/* line 71, ../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
 
-/* line 63, ../sass/partials/_modules.scss */
+/* line 77, ../sass/partials/_modules.scss */
+.services-s5 {
+  background-color: #777;
+  background-blend-mode: multiply;
+}
+
+/* line 84, ../sass/partials/_modules.scss */
 .text-blue {
   color: #0051a1;
 }
-/* line 66, ../sass/partials/_modules.scss */
+/* line 87, ../sass/partials/_modules.scss */
 .text-light-blue {
   color: #00b6f5;
 }
-/* line 69, ../sass/partials/_modules.scss */
+/* line 90, ../sass/partials/_modules.scss */
 .text-light-green {
   color: #b8df6e;
 }
-/* line 72, ../sass/partials/_modules.scss */
+/* line 93, ../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 3px #004364;
 }
 
 @media all and (max-width: 767px) {
-  /* line 78, ../sass/partials/_modules.scss */
+  /* line 100, ../sass/partials/_modules.scss */
+  .about-s1, .about-s3, .about-s4 {
+    background-color: #777 !important;
+    background-blend-mode: multiply;
+  }
+
+  /* line 106, ../sass/partials/_modules.scss */
+  .contact-s1, .contact-s2 {
+    background-color: #777 !important;
+    background-blend-mode: multiply;
+  }
+
+  /* line 111, ../sass/partials/_modules.scss */
   .header {
     background-color: #004364;
     opacity: 0.8;
   }
+
+  /* line 116, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-color: #777;
+    background-blend-mode: multiply;
+  }
+
+  /* line 122, ../sass/partials/_modules.scss */
+  .services-s1, .services-s3, .services-s4 {
+    background-color: #777 !important;
+    background-blend-mode: multiply;
+  }
 }
 /*landscape*/
 @media all and (orientation: landscape) {
-  /* line 87, ../sass/partials/_modules.scss */
+  /* line 132, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     padding-top: 5%;
   }
 
-  /* line 91, ../sass/partials/_modules.scss */
+  /* line 136, ../sass/partials/_modules.scss */
   .logo-cs {
     width: 15%;
   }
 
-  /* line 94, ../sass/partials/_modules.scss */
+  /* line 139, ../sass/partials/_modules.scss */
   .text-cs {
     font-size: 1.5em;
-  }
-}
-@media all and (orientation: landscape) and (max-width: 667px) {
-  /* line 101, ../sass/partials/_modules.scss */
-  .coming-soon-s1 {
-    background-image: url("../img/bg/coming_soon_sm_h.jpg");
-    background-size: cover;
-  }
-
-  /* line 106, ../sass/partials/_modules.scss */
-  .index-s1 {
-    background-image: url("../img/bg_index/index_s1_sm_h.jpg");
-    background-size: cover;
-    background-position: top right;
-  }
-
-  /* line 112, ../sass/partials/_modules.scss */
-  .about-s1 {
-    background-image: url("../img/bg_about/about_s1_sm_h.jpg");
-    background-size: cover;
-    background-position: top left;
-  }
-  /* line 116, ../sass/partials/_modules.scss */
-  .about-s2 {
-    background-image: url("../img/bg_about/about_s2_sm_h.jpg");
-    background-size: cover;
-    background-position: top right;
-  }
-
-  /* line 122, ../sass/partials/_modules.scss */
-  .contact-s1 {
-    background-image: url("../img/bg_contact/contact_s1_sm_h.jpg");
-    background-size: cover;
-  }
-
-  /* line 127, ../sass/partials/_modules.scss */
-  .text-landscape-start {
-    text-align: left !important;
-  }
-}
-@media all and (orientation: landscape) and (min-width: 668px) {
-  /* line 135, ../sass/partials/_modules.scss */
-  .coming-soon-s1 {
-    background-image: url("../img/bg/coming_soon_lg_h.jpg");
-    background-size: cover;
-  }
-
-  /* line 140, ../sass/partials/_modules.scss */
-  .index-s1 {
-    background-image: url("../img/bg_index/index_s1_lg_h.jpg");
-    background-size: cover;
-    background-position: top right;
-  }
-
-  /* line 146, ../sass/partials/_modules.scss */
-  .about-s1 {
-    background-image: url("../img/bg_about/about_s1_lg_h.jpg");
-    background-size: cover;
-    background-position: left center;
-  }
-  /* line 150, ../sass/partials/_modules.scss */
-  .about-s2 {
-    background-image: url("../img/bg_about/about_s2_lg_h.jpg");
-    background-size: cover;
-    background-position: top center;
-  }
-
-  /* line 156, ../sass/partials/_modules.scss */
-  .contact-s1 {
-    background-image: url("../img/bg_contact/contact_s1_lg_h.jpg");
-    background-size: cover;
-  }
-}
-@media all and (orientation: landscape) and (min-width: 992px) {
-  /* line 164, ../sass/partials/_modules.scss */
-  .coming-soon-s1 {
-    background-image: url("../img/bg/coming_soon_lg_h.jpg");
-    background-size: cover;
-    padding-top: 7.5%;
-  }
-  /* line 168, ../sass/partials/_modules.scss */
-  .coming-soon .logo-cs {
-    width: 20%;
-  }
-  /* line 171, ../sass/partials/_modules.scss */
-  .coming-soon .text-cs {
-    font-size: 1.8em;
-  }
-}
-@media all and (orientation: landscape) and (min-width: 1367px) {
-  /* line 179, ../sass/partials/_modules.scss */
-  .coming-soon-s1 {
-    background-image: url("../img/bg/coming_soon_xxl_h.jpg");
-    background-size: cover;
-  }
-
-  /* line 184, ../sass/partials/_modules.scss */
-  .index-s1 {
-    background-image: url("../img/bg_index/index_s1_xl_h.jpg");
-    background-size: cover;
-    background-position: top right;
-  }
-
-  /* line 190, ../sass/partials/_modules.scss */
-  .about-s1 {
-    background-image: url("../img/bg_about/about_s1_xl_h.jpg");
-    background-size: cover;
-    background-position: left center;
-  }
-  /* line 194, ../sass/partials/_modules.scss */
-  .about-s2 {
-    background-image: url("../img/bg_about/about_s2_xl_h.jpg");
-    background-size: cover;
-    background-position: top right;
-  }
-
-  /* line 200, ../sass/partials/_modules.scss */
-  .contact-s1 {
-    background-image: url("../img/bg_contact/contact_s1_xl_h.jpg");
-    background-size: cover;
-  }
-}
-/*portait*/
-@media all and (orientation: portrait) {
-  /* line 209, ../sass/partials/_modules.scss */
-  .coming-soon-s1 {
-    padding-top: 35%;
-  }
-  /* line 212, ../sass/partials/_modules.scss */
-  .coming-soon .logo-cs {
-    width: 70%;
-  }
-}
-@media all and (orientation: portrait) and (max-height: 667px) {
-  /* line 220, ../sass/partials/_modules.scss */
-  .coming-soon-s1 {
-    background-image: url("../img/bg/coming_soon_sm_v.jpg");
-    background-size: cover;
-  }
-
-  /* line 225, ../sass/partials/_modules.scss */
-  .index-s1 {
-    background-image: url("../img/bg_index/index_s1_sm_v.jpg");
-    background-size: cover;
-    background-position: top right;
-  }
-
-  /* line 231, ../sass/partials/_modules.scss */
-  .about-s1 {
-    background-image: url("../img/bg_about/about_s1_sm_h.jpg");
-    background-size: cover;
-    background-position: top left;
-  }
-  /* line 235, ../sass/partials/_modules.scss */
-  .about-s2 {
-    background-image: url("../img/bg_about/about_s2_sm_h.jpg");
-    background-size: cover;
-    background-position: top right;
-  }
-
-  /* line 241, ../sass/partials/_modules.scss */
-  .contact-s1 {
-    background-image: url("../img/bg_contact/contact_s1_sm_v.jpg");
-    background-size: cover;
-  }
-}
-@media all and (orientation: portrait) and (min-height: 668px) {
-  /* line 249, ../sass/partials/_modules.scss */
-  .coming-soon-s1 {
-    background-image: url("../img/bg/coming_soon_lg_v.jpg");
-    background-size: cover;
-  }
-
-  /* line 254, ../sass/partials/_modules.scss */
-  .index-s1 {
-    background-image: url("../img/bg_index/index_s1_lg_v.jpg");
-    background-size: cover;
-    background-position: bottom right;
-  }
-
-  /* line 260, ../sass/partials/_modules.scss */
-  .about-s1 {
-    background-image: url("../img/bg_about/about_s1_lg_v.jpg");
-    background-size: cover;
-    background-position: top right;
-  }
-  /* line 264, ../sass/partials/_modules.scss */
-  .about-s2 {
-    background-image: url("../img/bg_about/about_s2_lg_v.jpg");
-    background-size: cover;
-    background-position: top right;
-  }
-
-  /* line 270, ../sass/partials/_modules.scss */
-  .contact-s1 {
-    background-image: url("../img/bg_contact/contact_s1_lg_v.jpg");
-    background-size: cover;
-  }
-}
-@media all and (orientation: portrait) and (min-height: 1367px) {
-  /* line 278, ../sass/partials/_modules.scss */
-  .coming-soon-s1 {
-    background-image: url("../img/bg/coming_soon_xxl_v.jpg");
-    background-size: cover;
-  }
-
-  /* line 283, ../sass/partials/_modules.scss */
-  .index-s1 {
-    background-image: url("../img/bg_index/index_s1_xl_v.jpg");
-    background-size: cover;
-    background-position: top right;
-  }
-
-  /* line 289, ../sass/partials/_modules.scss */
-  .about-s1 {
-    background-image: url("../img/bg_about/about_s1_xl_v.jpg");
-    background-size: cover;
-    background-position: top right;
-  }
-  /* line 293, ../sass/partials/_modules.scss */
-  .about-s2 {
-    background-image: url("../img/bg_about/about_s2_xl_v.jpg");
-    background-size: cover;
-    background-position: top right;
-  }
-
-  /* line 299, ../sass/partials/_modules.scss */
-  .contact-s1 {
-    background-image: url("../img/bg_contact/contact_s1_xl_v.jpg");
-    background-size: cover;
-  }
-}
-/*iphone-X correction*/
-@media all and (orientation: landscape) and (width: 812px) {
-  /* line 307, ../sass/partials/_modules.scss */
-  .ip-index-s1 {
-    padding-top: 0px !important;
-    margin-top: 0px !important;
-    text-align: left !important;
-    width: 50% !important;
-  }
-
-  /* line 313, ../sass/partials/_modules.scss */
-  .ip-contact-s1 {
-    text-align: center !important;
-    width: 100% !important;
-  }
-}
-/*ipad-pro correction*/
-@media all and (orientation: portrait) and (height: 1366px) {
-  /* line 321, ../sass/partials/_modules.scss */
-  .ip-index-s1 {
-    margin-top: 20% !important;
-    text-align: center !important;
-    width: 100% !important;
   }
 }
