@@ -1,3 +1,11 @@
+@include aoa-bg-series($bg__classes,$bg__array);
+
+.about{
+    &-s2,&-s5{
+        background-color: #aaa;
+        background-blend-mode: multiply;
+    }
+}
 .bg{
     &-dark-blue{
         background-color: $color__dark-blue;
@@ -23,6 +31,12 @@
 .coming-soon{
     &-s1{
         background-position: center top;
+    }
+}
+.contact{
+    &-s3{
+        background-color: #999 !important;
+        background-blend-mode: multiply;
     }
 }
 
@@ -59,6 +73,13 @@
     }
 }
 
+.services{
+    &-s5{
+        background-color: #777;
+        background-blend-mode: multiply;
+    }
+}
+
 .text{
     &-blue{
         color: $color__blue;
@@ -75,9 +96,33 @@
 }
 
 @media all and (max-width: 767px){
+    .about{
+        &-s1,&-s3,&-s4{
+            background-color: #777!important;
+            background-blend-mode: multiply;
+        }
+    }
+    .contact{
+        &-s1,&-s2{
+            background-color: #777!important;
+            background-blend-mode: multiply;
+        }
+    }
     .header{
         background-color: $color__dark-blue;
         opacity:0.8;
+    }
+    .index{
+        &-s1{
+            background-color: #777;
+            background-blend-mode: multiply;
+        }
+    }
+    .services{
+        &-s1,&-s3,&-s4{
+            background-color: #777!important;
+            background-blend-mode: multiply;
+        }
     }
 }
 
@@ -93,234 +138,5 @@
     }
     .text-cs{
         font-size: 1.5em;
-    }
-}
-
-@media all and (orientation: landscape) and (max-width:667px){
-    .coming-soon{
-        &-s1{
-            @include set-bg(nth($img__coming-soon--h,1));
-        }
-    }
-    .index{
-        &-s1{
-            @include set-bg(nth($img__index-s1--h,1));
-            background-position: top right;
-        }
-    }
-    .about{
-        &-s1{
-            @include set-bg(nth($img__about-s1--h,1));
-            background-position: top left;
-        }
-        &-s2{
-            @include set-bg(nth($img__about-s2--h,1));
-            background-position: top right;
-        }
-    }
-    .contact{
-        &-s1{
-            @include set-bg(nth($img__contact-s1--h,1));
-        }
-    }
-    .text{
-        &-landscape-start{
-            text-align: left !important;
-        }
-    }
-}
-
-@media all and (orientation: landscape) and (min-width:668px){
-    .coming-soon{
-        &-s1{
-            @include set-bg(nth($img__coming-soon--h,2));
-        }
-    }
-    .index{
-        &-s1{
-            @include set-bg(nth($img__index-s1--h,2));
-            background-position: top right;
-        }
-    }
-    .about{
-        &-s1{
-            @include set-bg(nth($img__about-s1--h,2));
-            background-position: left center;
-        }
-        &-s2{
-            @include set-bg(nth($img__about-s2--h,2));
-            background-position: top center;
-        }
-    }
-    .contact{
-        &-s1{
-            @include set-bg(nth($img__contact-s1--h,2));
-        }
-    }
-}
-
-@media all and (orientation: landscape) and (min-width:992px){
-    .coming-soon{
-        &-s1{
-            @include set-bg(nth($img__coming-soon--h,2));
-            padding-top: 7.5%;
-        }
-        .logo-cs{
-            width: 20%;
-        }
-        .text-cs{
-            font-size: 1.8em;
-        }
-    }
-}
-
-@media all and (orientation: landscape) and (min-width:1367px){
-    .coming-soon{
-        &-s1{
-            @include set-bg(nth($img__coming-soon--h,3));
-        }
-    }
-    .index{
-        &-s1{
-            @include set-bg(nth($img__index-s1--h,3));
-            background-position: top right;
-        }
-    }
-    .about{
-        &-s1{
-            @include set-bg(nth($img__about-s1--h,3));
-            background-position: left center;
-        }
-        &-s2{
-            @include set-bg(nth($img__about-s2--h,3));
-            background-position: top right;
-        }
-    }
-    .contact{
-        &-s1{
-            @include set-bg(nth($img__contact-s1--h,3));
-        }
-    }
-}
-
-/*portait*/
-@media all and (orientation: portrait){
-    .coming-soon{
-        &-s1{
-            padding-top: 35%;
-        }
-        .logo-cs{
-            width: 70%;
-        }
-    }
-}
-
-@media all and (orientation: portrait) and (max-height:667px){
-    .coming-soon{
-        &-s1{
-            @include set-bg(nth($img__coming-soon--v,1));
-        }
-    }
-    .index{
-        &-s1{
-            @include set-bg(nth($img__index-s1--v,1));
-            background-position: top right;
-        }
-    }
-    .about{
-        &-s1{
-            @include set-bg(nth($img__about-s1--h,1));
-            background-position: top left;
-        }
-        &-s2{
-            @include set-bg(nth($img__about-s2--h,1));
-            background-position: top right;;
-        }
-    }
-    .contact{
-        &-s1{
-            @include set-bg(nth($img__contact-s1--v,1));
-        }
-    }
-}
-
-@media all and (orientation: portrait) and (min-height:668px){
-    .coming-soon{
-        &-s1{
-            @include set-bg(nth($img__coming-soon--v,2));
-        }
-    }
-    .index{
-        &-s1{
-            @include set-bg(nth($img__index-s1--v,2));
-            background-position: bottom right;
-        }
-    }
-    .about{
-        &-s1{
-            @include set-bg(nth($img__about-s1--v,2));
-            background-position: top right;
-        }
-        &-s2{
-            @include set-bg(nth($img__about-s2--v,2));
-            background-position: top right;
-        }
-    }
-    .contact{
-        &-s1{
-            @include set-bg(nth($img__contact-s1--v,2));
-        }
-    }
-}
-
-@media all and (orientation: portrait) and (min-height:1367px){
-    .coming-soon{
-        &-s1{
-            @include set-bg(nth($img__coming-soon--v,3));
-        }
-    }
-    .index{
-        &-s1{
-            @include set-bg(nth($img__index-s1--v,3));
-            background-position: top right;
-        }
-    }
-    .about{
-        &-s1{
-            @include set-bg(nth($img__about-s1--v,3));
-            background-position: top right;
-        }
-        &-s2{
-            @include set-bg(nth($img__about-s2--v,3));
-            background-position: top right;
-        }
-    }
-    .contact{
-        &-s1{
-            @include set-bg(nth($img__contact-s1--v,3));
-        }
-    }
-}
-
-/*iphone-X correction*/
-@media all and (orientation: landscape) and (width:812px){
-    .ip-index-s1{
-        padding-top: 0px !important;
-        margin-top: 0px !important;
-        text-align: left !important;
-        width: 50% !important;
-    }
-    .ip-contact-s1{
-        text-align: center!important;
-        width:100% !important;
-    }
-}
-
-/*ipad-pro correction*/
-@media all and (orientation: portrait) and (height:1366px){
-    .ip-index-s1{
-        margin-top:20% !important;
-        text-align: center !important;
-        width: 100% !important;
     }
 }
