@@ -1,9 +1,19 @@
 @include aoa-bg-series($bg__classes,$bg__array);
 
+
 .about{
+    &-s1{
+        background-position-x: 75%!important;
+    }
     &-s2,&-s5{
         background-color: #aaa;
         background-blend-mode: multiply;
+    }
+    &-s3{
+        background-position-x: 32%!important;
+    }
+    &-s4{
+        background-position-x: 65%!important;
     }
 }
 .bg{
@@ -34,12 +44,19 @@
     }
 }
 .contact{
+    &-s1{
+        background-position-x: 65%!important;
+    }
     &-s3{
         background-color: #999 !important;
         background-blend-mode: multiply;
     }
 }
-
+.index{
+    &-s1{
+        background-position-x: 32%!important;
+    }
+}
 .minh{
     &-25vh{
         min-height: 25vh;
@@ -74,12 +91,25 @@
 }
 
 .services{
+    &-s1{
+        background-position-x: center!important;
+    }
+    &-s3{
+        background-position-x: 40%!important;
+    }
+    &-s4{
+        background-position-x: 75%!important;
+    }
     &-s5{
         background-color: #777;
         background-blend-mode: multiply;
     }
 }
-
+.team{
+    &-s1{
+        background-position-x: 65%!important;
+    }
+}
 .text{
     &-blue{
         color: $color__blue;
@@ -93,6 +123,10 @@
     &-shadow{
         text-shadow: $text__shadow;
     }
+}
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "Courgette";
+    letter-spacing: 1px;
 }
 
 @media all and (max-width: 767px){
@@ -112,7 +146,7 @@
         background-color: $color__dark-blue;
         opacity:0.8;
     }
-    .index{
+    .index,.team{
         &-s1{
             background-color: #777;
             background-blend-mode: multiply;
