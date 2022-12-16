@@ -189,29 +189,35 @@
   background-blend-mode: multiply;
 }
 
-/* line 56, ../sass/partials/_modules.scss */
+/* line 55, ../sass/partials/_modules.scss */
+.img-tile {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* line 60, ../sass/partials/_modules.scss */
 .index-s1 {
   background-position-x: 32% !important;
 }
 
-/* line 61, ../sass/partials/_modules.scss */
+/* line 65, ../sass/partials/_modules.scss */
 .minh-25vh {
   min-height: 25vh;
 }
-/* line 64, ../sass/partials/_modules.scss */
+/* line 68, ../sass/partials/_modules.scss */
 .minh-50vh {
   min-height: 50vh;
 }
-/* line 67, ../sass/partials/_modules.scss */
+/* line 71, ../sass/partials/_modules.scss */
 .minh-75vh {
   min-height: 75vh;
 }
-/* line 70, ../sass/partials/_modules.scss */
+/* line 74, ../sass/partials/_modules.scss */
 .minh-100vh {
   min-height: 100vh;
 }
 
-/* line 76, ../sass/partials/_modules.scss */
+/* line 80, ../sass/partials/_modules.scss */
 .navbar-brand {
   background-color: white;
   border-radius: 50%;
@@ -219,87 +225,93 @@
   margin: 0px 10px;
 }
 
-/* line 85, ../sass/partials/_modules.scss */
+/* line 89, ../sass/partials/_modules.scss */
 .opacity-7 {
   opacity: 0.7;
 }
-/* line 88, ../sass/partials/_modules.scss */
+/* line 92, ../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
 
-/* line 94, ../sass/partials/_modules.scss */
+/* line 98, ../sass/partials/_modules.scss */
 .services-s1 {
   background-position-x: center !important;
 }
-/* line 97, ../sass/partials/_modules.scss */
+/* line 101, ../sass/partials/_modules.scss */
 .services-s3 {
   background-position-x: 40% !important;
 }
-/* line 100, ../sass/partials/_modules.scss */
+/* line 104, ../sass/partials/_modules.scss */
 .services-s4 {
   background-position-x: 75% !important;
 }
-/* line 103, ../sass/partials/_modules.scss */
+/* line 107, ../sass/partials/_modules.scss */
 .services-s5 {
   background-color: #777;
   background-blend-mode: multiply;
 }
 
-/* line 109, ../sass/partials/_modules.scss */
+/* line 113, ../sass/partials/_modules.scss */
 .team-s1 {
   background-position-x: 65% !important;
 }
 
-/* line 114, ../sass/partials/_modules.scss */
+/* line 118, ../sass/partials/_modules.scss */
 .text-blue {
   color: #0051a1;
 }
-/* line 117, ../sass/partials/_modules.scss */
+/* line 121, ../sass/partials/_modules.scss */
 .text-light-blue {
   color: #00b6f5;
 }
-/* line 120, ../sass/partials/_modules.scss */
+/* line 124, ../sass/partials/_modules.scss */
 .text-light-green {
   color: #b8df6e;
 }
-/* line 123, ../sass/partials/_modules.scss */
+/* line 127, ../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 3px #004364;
 }
 
-/* line 127, ../sass/partials/_modules.scss */
+/* line 131, ../sass/partials/_modules.scss */
 h1, h2, h3, h4, h5, h6, .nav-link {
   font-family: "Courgette";
   letter-spacing: 1px;
 }
 
 @media all and (max-width: 767px) {
-  /* line 134, ../sass/partials/_modules.scss */
+  /* line 138, ../sass/partials/_modules.scss */
   .about-s1, .about-s3, .about-s4 {
     background-color: #777 !important;
     background-blend-mode: multiply;
   }
 
-  /* line 140, ../sass/partials/_modules.scss */
+  /* line 144, ../sass/partials/_modules.scss */
   .contact-s1, .contact-s2 {
     background-color: #777 !important;
     background-blend-mode: multiply;
   }
 
-  /* line 145, ../sass/partials/_modules.scss */
+  /* line 149, ../sass/partials/_modules.scss */
   .header {
     background-color: #004364;
     opacity: 0.8;
   }
 
-  /* line 150, ../sass/partials/_modules.scss */
+  /* line 153, ../sass/partials/_modules.scss */
+  .img-tile {
+    max-height: 250px;
+    object-fit: cover;
+  }
+
+  /* line 158, ../sass/partials/_modules.scss */
   .index-s1, .team-s1 {
     background-color: #777;
     background-blend-mode: multiply;
   }
 
-  /* line 156, ../sass/partials/_modules.scss */
+  /* line 164, ../sass/partials/_modules.scss */
   .services-s1, .services-s3, .services-s4 {
     background-color: #777 !important;
     background-blend-mode: multiply;
@@ -307,17 +319,17 @@ h1, h2, h3, h4, h5, h6, .nav-link {
 }
 /*landscape*/
 @media all and (orientation: landscape) {
-  /* line 166, ../sass/partials/_modules.scss */
+  /* line 174, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     padding-top: 5%;
   }
 
-  /* line 170, ../sass/partials/_modules.scss */
+  /* line 178, ../sass/partials/_modules.scss */
   .logo-cs {
     width: 15%;
   }
 
-  /* line 173, ../sass/partials/_modules.scss */
+  /* line 181, ../sass/partials/_modules.scss */
   .text-cs {
     font-size: 1.5em;
   }

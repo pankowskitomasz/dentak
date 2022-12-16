@@ -52,6 +52,10 @@
         background-blend-mode: multiply;
     }
 }
+.img-tile{
+    height: 100%;
+    object-fit: cover;
+}
 .index{
     &-s1{
         background-position-x: 32%!important;
@@ -145,6 +149,10 @@ h1,h2,h3,h4,h5,h6,.nav-link{
     .header{
         background-color: $color__dark-blue;
         opacity:0.8;
+    }
+    .img-tile{
+        max-height: 250px;
+        object-fit: cover;
     }
     .index,.team{
         &-s1{
